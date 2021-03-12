@@ -93,7 +93,6 @@ Bops a user
 ```
 !addcom !bop BOP $(user) bopped $(touser) with a $(eval ["no horny stick","golf club","gladiators club","ironstar mace","gnome hooked hammer"][Math.floor(Math.random()*6)];), dealing $(eval Math.floor(Math.random()*100);) damage BOP
 ```
-
 Chooses a random weapon from a list and damage to bop the user with.
 
 
