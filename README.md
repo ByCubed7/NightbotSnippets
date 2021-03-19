@@ -3,13 +3,11 @@
 
 There's a Nightbot limitation of 500 max characters and a script execution timeout of 25ms in a custom command.
 
-
 Helpful Links:
 [Nightbot Docs](https://docs.nightbot.tv/),
 [javascript-minifier](https://javascript-minifier.com/)
 
-
-<br><br>
+<br>
 
 ## Contents:
 - Dice
@@ -19,10 +17,11 @@ Helpful Links:
 - Bop
 - Prophecy
 
-
 ---
 
-### Dice
+
+
+## Dice
 Roles a dice similar to those used in Dungeons and Dragons 5e (defaults to one 6 sided dice).
 
 ##### Usage
@@ -72,7 +71,7 @@ console.log(`🎲 You rolled ${dice} and scored ${score} 🎲`)
 
 
 
-### Follow age
+## Follow age
 Also checkout [2g.be](https://2g.be/) and [this post](https://community.nightdev.com/t/followage-howlong-command-howlong-has-suddenly-stop-working/8751/2) for formats and other examples
 ```
 !followage $(urlfetch https://api.2g.be/twitch/followage/$(channel)/$(touser)?format=ymwdhis)
@@ -80,7 +79,7 @@ Also checkout [2g.be](https://2g.be/) and [this post](https://community.nightdev
 
 
 
-### Shoutouts
+## Shoutouts
 Shouts out a user in chat
 ```
 !addcom !so Go check out $(touser) at https://www.twitch.tv/$(touser)!! They were last playing $(twitch game $(touser)) <3
@@ -89,14 +88,14 @@ Shouts out a user in chat
 
 
 
-### Hug
+## Hug
 ```
 !addcom !hug $(user) gave $(touser) a loving squeeze <3
 ```
 
 
 
-### Bop
+## Bop
 Bops a user with a random weapon from a list, with a random amount of damage.
 
 ##### Usage
@@ -126,7 +125,7 @@ Math.floor( Math.random()*100 );
 ```
 
 
-### Prophecy
+## Prophecy
 This example grabs and runs some code from pastebin
 
 ##### Usage
@@ -143,7 +142,7 @@ This example grabs and runs some code from pastebin
 
 
 
-### 8ball
+## 8ball
 
 ##### Usage
 !8ball <question>
