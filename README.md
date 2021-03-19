@@ -14,8 +14,11 @@ Helpful Links:
 ## Contents:
 - Codes
   - DnD-like Dice
-- Grabbing code from other sources (eg pastebin)
-- Shoutouts
+  - Follow age
+  - Shoutouts
+  - Hug
+  - Bop
+  - Grabbing code from other sources (eg pastebin)
 ---
 
 ### DnD-like Dice
