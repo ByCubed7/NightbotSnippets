@@ -179,7 +179,18 @@ const responses = [
 console.log(responses[Math.floor(Math.random() * responses.length)]);
 ```
 
+## Uptime
 
+##### Usage
+!Uptime
+
+##### Responce
+`Grayscaped has been up for 2 hours 14 minutes 41 seconds`
+
+##### Addcom
+```
+!addcom !uptime $(channel) has been up for $(twitch $(channel) "{{uptimeLength}}")
+```
 
 ---
 > <small> Big secret thx to [Sabeden](discord.gg/majkuH4) for inspiring me to start this, great content creator and friend so go check him out :3 </small>
