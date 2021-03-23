@@ -136,7 +136,7 @@ This example grabs and runs some code from pastebin
 
 ##### Addcom
 ```
-!addcom !prophecy $(eval const user=`$(user)`; $(urlfetch json https://pastebin.com/raw/RuX9DEk5 ); `${j}`)
+!addcom !prophecy $(eval const user=`$(touser)`; $(urlfetch json https://pastebin.com/raw/RuX9DEk5 ); `${j}`)
 ```
 > Note: This took like 4 hours to get working lmao ;-;
 
