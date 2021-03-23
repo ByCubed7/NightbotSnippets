@@ -54,7 +54,7 @@ if (dice.includes("+")) {
   addit = p[1];
 };
 
-// Cast to integers
+// Parse to integers
 amount = parseInt(amount);
 value = parseInt(value);
 addit = parseInt(addit);
@@ -99,7 +99,7 @@ Shouts out a user in chat
 Bops a user with a random weapon from a list, with a random amount of damage.
 
 ##### Usage
-!bop <user>
+!bop [user]
 !bop ChessyGrill
   
 ##### Returns
