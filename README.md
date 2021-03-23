@@ -99,7 +99,7 @@ Shouts out a user in chat
 Bops a user with a random weapon from a list, with a random amount of damage.
 
 ##### Usage
-!bop [user]
+!bop [user] <br>
 !bop ChessyGrill
   
 ##### Returns
