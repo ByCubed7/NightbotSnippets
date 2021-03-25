@@ -147,7 +147,7 @@ This example grabs and runs some code from pastebin
 ## 8ball
 
 ##### Usage
-!8ball <question>
+!8ball Will I ever be loved?
   
 ##### Responce
 `All signs point to yes...`
@@ -220,7 +220,7 @@ console.log(responses[Math.floor(Math.random() * responses.length)]);
 
 ## Multi
 ##### Usage
-!multi
+!multi chrisanthemum
 
 ##### Responce
 `https://www.multitwitch.tv/havenhand/chrisanthemum`
