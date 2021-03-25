@@ -16,6 +16,7 @@ Helpful Links:
 - Hug
 - Bop
 - Prophecy
+- Death / Horny-jail counter
 
 ---
 
@@ -179,6 +180,8 @@ const responses = [
 console.log(responses[Math.floor(Math.random() * responses.length)]);
 ```
 
+
+
 ## Uptime
 
 ##### Usage
@@ -191,6 +194,27 @@ console.log(responses[Math.floor(Math.random() * responses.length)]);
 ```
 !addcom !uptime $(channel) has been up for $(twitch $(channel) "{{uptimeLength}}")
 ```
+
+
+
+## Death / Horny-jail counter
+
+##### Usage
+!dead <br>
+!horny Grayscaped
+
+##### Responce
+`That's 24 deaths now!` <br>
+`Nightbot sent Grayscaped to horny jail BOP . (24 people have been sent to horny jail)`
+
+##### Addcom
+```
+!addcom !dead That's $(count) deaths now!
+```
+```
+!addcom !horny /me sent $(touser) to horny jail BOP . ($(count) people have been sent to horny jail)
+```
+
 
 ---
 > <small> Big secret thx to [Sabeden](discord.gg/majkuH4) for inspiring me to start this, great content creator and friend so go check him out :3 </small>
