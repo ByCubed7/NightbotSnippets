@@ -17,6 +17,7 @@ Helpful Links:
 - Bop
 - Prophecy
 - Death / Horny-jail counter
+- Multi
 
 ---
 
@@ -215,6 +216,19 @@ console.log(responses[Math.floor(Math.random() * responses.length)]);
 !addcom !horny /me sent $(touser) to horny jail BOP . ($(count) people have been sent to horny jail)
 ```
 
+
+
+## Multi
+##### Usage
+!multi
+
+##### Responce
+`https://www.multitwitch.tv/havenhand/chrisanthemum`
+
+##### Addcom
+```
+!addcom !multi https://www.multitwitch.tv/$(channel)/$(1)
+```
 
 ---
 > <small> Big secret thx to [Sabeden](discord.gg/majkuH4) for inspiring me to start this, great content creator and friend so go check him out :3 </small>
