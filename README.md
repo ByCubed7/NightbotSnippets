@@ -145,15 +145,32 @@ This example grabs and runs some code from pastebin
 
 ## Dadjoke
 
+##### Usage
+!dadjoke <user>
+
 ##### Returns
 `If a child refuses to sleep during nap time, are they guilty of resisting a rest?`
+
+##### Addcom
+```
+!addcom !dadjoke $(eval const user=`$(touser)`; $(urlfetch json https://pastebin.com/raw/34wP31NV ); `${j}`)
+```
+
+
+## Flipping
+
+##### Usage
+!flipping GreaySciped
+
+##### Returns
+`( ╯°□°）╯︵ pǝdᴉɔSʎɐǝɹפ`
 
 ##### Usage
 !dadjoke <user>
 
 ##### Addcom
 ```
-!addcom !dadjoke $(eval const user=`$(touser)`; $(urlfetch json https://pastebin.com/raw/34wP31NV ); `${j}`)
+!addcom !flipping $(eval const user=`$(touser)`; $(urlfetch json https://pastebin.com/raw/3nTBNB9Z ); `${j}`)
 ```
 
 
